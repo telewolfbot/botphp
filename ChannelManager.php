@@ -1,6 +1,6 @@
 <?php /* Telegram : @Mosi_Dev */
 
-define('API_KEY','توکن ربات');
+define('API_KEY','311473869:AAEDa1GHhqrAkhuoji5TukJ7fafzevDC4Uk');
 
 function api($method,$datas=[]){
  $url = "https://api.telegram.org/bot".API_KEY."/".$method;
@@ -23,10 +23,10 @@ $message_id = $update->message->message_id;
 $boolean = file_get_contents('step.txt');
 $booleans= explode("\n",$boolean);
 
-$channelusername = 'آیدی کانال همراه با @';
-$channelnoa = 'آیدی کانال بدون @';
-$adminnoa = 'آیدی ادمین بدون @';
-$admin = آیدی عددی ادمین;
+$channelusername = '@Telecracking';
+$channelnoa = 'Telecracking';
+$adminnoa = 'Amirrezajeddi';
+$admin = 102117869;
 
 
 $button = array(
