@@ -1,6 +1,6 @@
 <?php /* Telegram : @Mosi_Dev */
 
-define('API_KEY','311473869:AAEDa1GHhqrAkhuoji5TukJ7fafzevDC4Uk');
+define('API_KEY','248657600:AAHYzdzNHswiI28nr5aQ6AXeI5F965SArYg');
 
 function api($method,$datas=[]){
  $url = "https://api.telegram.org/bot".API_KEY."/".$method;
